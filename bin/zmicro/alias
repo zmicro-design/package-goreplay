@@ -2,14 +2,14 @@
 
 help() {
   echo "Usage:"
-  echo "  zmicro gor <args ...>"
+  echo "  zmicro goreplay <args ...>"
   echo ""
 
-  gor --help
+  goreplay --help
 }
 
 version() {
-  # gor --version
+  # goreplay --version
   echo "v1.3.2"
 }
 
@@ -22,7 +22,7 @@ core() {
     version
     ;;
   *)
-    gor "$@"
+    goreplay "$@"
     ;;
   esac
 }
