@@ -1,4 +1,4 @@
 NAME=goreplay
 VERSION=v0.0.0
 MODULE=package
-DESCRIPTION="Highly opinionated MTPROTO proxy for Telegram"
+DESCRIPTION="Capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data"

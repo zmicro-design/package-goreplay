@@ -2,7 +2,7 @@
 
 install() {
   # prepare vars
-  local name="$PACKAGE_CORE_NAME"
+  local name="gor"
 
   log::info "[$(timestamp)][package][$name] preparing ..."
 
